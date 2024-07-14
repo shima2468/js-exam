@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "apple-system";
+    src: url("https://github.com/apple-fonts/Apple-system-fonts.git");
+}
+
+
+body{
+    background-color: black;
+    font-family: "apple-system";
+}
+.content-page{
+    display: none;
+}
+#loader{
+    position: fixed;
+    z-index: 99999;
+}
+body{
+    overflow:hidden ;
+}
+li,i{
+    cursor: pointer;
+}
+.p-category{
+    font-size: 12px;
+}
+#random-product{
+    margin:100px 200px ;
+}
+#category{
+    margin:100px 250px;
+}
+#Search{
+    margin:50px 400px ;
+}
+#Areas{
+    margin:50px 150px ;
+}
+#Ingredients{
+    margin:50px 150px ;
+}
+#ProductDetailes{
+    margin:100px 0px ;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#meal-category{
+    margin:100px 200px ;
+}
+#FormContact{
+    margin:200px 200px ;
+     padding-left: 100px;
+}
+#meal-integ{
+    margin:100px 200px ;
+}
+#mealCity{
+    margin:100px 200px ;
+}
+.logo{
+    width: 60px;
+}
+.side-nav-menu{
+    z-index: 999999999999;
+   
+}
+.side-nav-menu .nav-header{
+    width: 100px;
+}
+.side-nav-menu  .nav-tab{
+    width: 300px;
+}
+.product-img{
+    width: 450px;
+}
+.inner .img-section{
+    position: relative;
+}
+.inner .img-section .layer{
+    position: absolute;
+    left:0; right:0;top:100%;bottom: 0;
+    background-color:rgba(255,255,255,0.8);
+    font-weight: bolder;
+    overflow: hidden;
+    transition: all .7s;
+}
+.inner:hover .img-section .layer{
+   top:0;
+}
+
+
+#Search input{
+    height: 10px;
+    border:1px solid white;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
